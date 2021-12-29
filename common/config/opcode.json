@@ -1,0 +1,22 @@
+{
+  "ping": "0000",
+  "pingAck": "0001",
+
+  "typing": "0002",
+  "typingAck": "0003",
+  "typingStopped": "0004",
+  "typingStoppedAck": "0005",
+
+  "sendText": "1000",
+  "sendTextAck": "1001",
+  "recvText": "1002",
+  "recvTextAck": "1003",
+
+  "sendImg": "1004",
+  "sendImgAck": "1005",
+  "recvImg": "1006",
+  "recvImgAck": "1007",
+
+  "regClient": "9000",
+  "regClientAck": "9001"
+}
