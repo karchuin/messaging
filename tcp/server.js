@@ -41,6 +41,13 @@ class Server {
       }
     };
 
+    this.getClientSocket = clientId => {
+      for (const socket of this.sockets) {
+        if (socket.clientId === Number(clientId)) return socket;
+      }
+      return null;
+    };
+
     function _onListen () {
       console.log(`server listening on port ${self.port}`);
     }
